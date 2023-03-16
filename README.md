@@ -1,6 +1,6 @@
 # Spring Boot Chat Messaging Application
 
-👋 Welcome to the **Spring Boot Chat Messaging Application**! This project is part of Udacity's Java Developer Nano Degree Program and showcases knowledge of Spring Boot and Inversion of Control, Spring MVC and Thymeleaf, Data Persistence and Security using ORM tool MyBatis and Spring Security, and testing using JUnit and Selenium.
+👋 Welcome to the **Spring Boot Chat Messaging Application**! This project is part of Udacity's Java Developer Nano Degree Program and showcases knowledge of Spring Boot and Inversion of Control, Spring MVC and Thymeleaf, Data Persistence and Security using H2 Database, ORM tool MyBatis, and Spring Security, and testing using JUnit and Selenium.
 
 ## Features
 
@@ -29,7 +29,7 @@
 - Spring Boot: for creating standalone Spring applications.
 - Inversion of Control: for managing dependencies between classes.
 - Spring MVC and Thymeleaf: for building dynamic web pages.
-- MyBatis: for object-relational mapping (ORM).
+- MyBatis: for object-relational mapping (ORM) to H2 Database.
 - Spring Security: for securing the application.
 - JUnit and Selenium: for testing the application.
 
