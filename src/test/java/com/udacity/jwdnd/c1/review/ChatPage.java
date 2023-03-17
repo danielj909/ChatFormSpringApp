@@ -15,10 +15,10 @@ public class ChatPage {
     @FindBy(id="submitMessage")
     private WebElement submitButton;
 
-    @FindBy(className = "chatMessageUsername")
+    @FindBy(id = "chatMessageUsername")
     private WebElement firstMessageUsername;
 
-    @FindBy(className = "chatMessageText")
+    @FindBy(id = "chatMessageText")
     private WebElement firstMessageText;
 
     public ChatPage(WebDriver driver) {

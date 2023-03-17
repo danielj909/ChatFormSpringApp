@@ -19,6 +19,13 @@
 <body>
 
 <div class="container mt-3">
+    <!-- Logout button with class mt-3 float-right -->
+    <div class="mt-3 float-right">
+        <form action="/logout" method="POST">
+            <button type="submit" class="btn btn-danger">Logout</button>
+        </form>
+    </div>
+
     <h1>Chat</h1>
 
     <form th:object="${chatForm}" action="#" th:action="@{/chat}" method="POST">
@@ -38,13 +45,13 @@
                 </option>
             </select>
         </div>
-        <button type="submit" class="btn btn-primary">Send</button>
+        <button id="submitMessage" type="submit" class="btn btn-primary">Send</button>
     </form>
 
     <div class="mt-3">
         <div th:each="chatMessage : ${chatMessages}" class="chat-message">
-            <span class="font-weight-bold" th:text="${chatMessage.username}"></span>
-            <span th:text="${chatMessage.messageText}"></span>
+            <span id="chatMessageUsername" class="font-weight-bold" th:text="${chatMessage.username}"></span>
+            <span id="chatMessageText" th:text="${chatMessage.messageText}"></span>
         </div>
     </div>
 </div>
