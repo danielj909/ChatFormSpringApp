@@ -6,7 +6,7 @@
 
 - **Sign Up:** Users can sign up to create a new account with a unique username and password.
 - **Log In:** Users can log in using their username and password.
-- **Chat Home:** Users can send and receive messages in real-time with other logged-in users.
+- **Chat Home:** Users can send and receive messages with other logged-in users.
 
 ## Screenshots
 
